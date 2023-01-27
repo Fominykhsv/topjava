@@ -35,14 +35,14 @@ public class VariablesTheme {
         int maxInt = 2147483647;
         long maxLong = 9223372036854775807l; 
 
-        System.out.println("maxByte = " + maxByte + "maxByteI = " + maxByte++ 
-                +"maxByteD = " + maxByte--);
-        System.out.println("maxShort = " + maxShort + "maxShortI = " + maxShort++ 
-                +"maxShortD = " + maxShort--);
-        System.out.println("maxInt = " + maxInt + "maxIntI = " + maxInt++ 
-                +"maxIntD = " + maxInt--);
-        System.out.println("maxLong = " + maxLong + "maxLongI = " + maxLong++ 
-                +"maxLongD = " + maxLong--);
+        System.out.println("maxByte = " + maxByte++ + "\nmaxByteI = "  + maxByte-- +"\nmaxByteD = " + maxByte);
+
+        System.out.println("maxShort = " + maxShort++ + "\nmaxShortI = " + maxShort-- 
+                +"\nmaxShortD = " + maxShort);
+        System.out.println("maxInt = " + maxInt++ + "\nmaxIntI = " + maxInt-- 
+                +"\nmaxIntD = " + maxInt);
+        System.out.println("maxLong = " + maxLong ++ + "\nmaxLongI = " + maxLong-- 
+                +"\nnmaxLongD = " + maxLong);
 
         System.out.println("\n5.Перестановка значений переменных.");
         int a = 2;
