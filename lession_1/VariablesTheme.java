@@ -11,7 +11,8 @@ public class VariablesTheme {
         boolean startComputer = true;
         System.out.println("Ядер ЦП = " + core +"\nОбъём ОЗУ = " + sizeRam + "\nКол.лог.ЦП = " 
                 + countLogCpu + "\nКол.HDD = " + countHdd + "\nЧастота ЦП = " + freqCpu 
-                + "\nЧастота ОЗУ = " + freqRam + "Имя ЦП = " + nameCpu + "ПК включён? " + startComputer );  
+                + "\nЧастота ОЗУ = " + freqRam + "Имя ЦП = " + nameCpu + "ПК включён? " 
+                + startComputer );  
 
         System.out.println("\n2.Расчет стоимости товара со скидкой");
         int penPrice = 100;
