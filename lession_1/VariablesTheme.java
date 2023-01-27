@@ -11,7 +11,7 @@ public class VariablesTheme {
         boolean startComputer = true;
         System.out.println("Ядер ЦП = " + core +"\nОбъём ОЗУ = " + sizeRam + "\nКол.лог.ЦП = " 
                 + countLogCpu + "\nКол.HDD = " + countHdd + "\nЧастота ЦП = " + freqCpu 
-                + "\nЧастота ОЗУ = " + freqRam + "Имя ЦП = " + nameCpu + "ПК включён? " 
+                + "\nЧастота ОЗУ = " + freqRam + "\nИмя ЦП = " + nameCpu + "\nПК включён ? " 
                 + startComputer );  
 
         System.out.println("\n2.Расчет стоимости товара со скидкой");
@@ -53,7 +53,7 @@ public class VariablesTheme {
                 + "\nb = " + b);        
         a = b;
         b = c;
-        System.out.println("\nРезультат\na = " + a + "\nb = " + b);
+        System.out.println("Результат\na = " + a + "\nb = " + b);
 
         System.out.println("\nii.С помощью арифметических операций\nИсходное значение\na = " 
                 + a + "\nb = " + b);
@@ -66,7 +66,7 @@ public class VariablesTheme {
         System.out.println("\niii.C помощью побитовой операции\nИсходное значение\na = " + a 
                 + "\nb = " + b);
         a ^= b;
-        b ^= b;
+        b ^= a ;
         a ^= b; 
         System.out.println("Результат\na = " + a + "\nb = " + b);
 
@@ -103,7 +103,7 @@ public class VariablesTheme {
         System.out.println("Произведение = " + ((n/ 100 )* (n / 10 % 10) * (n % 10)));
 
         System.out.println("\n9.Вывод времени" );
-        int time =86399;
-        System.out.println(time/60/60 + ":" + time/60%60 + ":" + time%60 + "\n");
+        int time = 86399;
+        System.out.println(time / 60 / 60 + ":" + time / 60 % 60 + ":" + time % 60 + "\n");
     }
 }
