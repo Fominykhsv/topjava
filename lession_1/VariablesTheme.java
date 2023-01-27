@@ -66,7 +66,7 @@ public class VariablesTheme {
         System.out.println("\niii.C помощью побитовой операции\nИсходное значение\na = " + a 
                 + "\nb = " + b);
         a ^= b;
-        b ^= a ;
+        b ^= a;
         a ^= b; 
         System.out.println("Результат\na = " + a + "\nb = " + b);
 
