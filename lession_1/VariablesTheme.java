@@ -35,8 +35,8 @@ public class VariablesTheme {
         int maxInt = 2147483647;
         long maxLong = 9223372036854775807l; 
 
-        System.out.println("maxByte = " + maxByte++ + "\nmaxByteI = "  + maxByte-- +"\nmaxByteD = " + maxByte);
-
+        System.out.println("maxByte = " + maxByte++ + "\nmaxByteI = "  + maxByte-- 
+                +"\nmaxByteD = " + maxByte);
         System.out.println("maxShort = " + maxShort++ + "\nmaxShortI = " + maxShort-- 
                 +"\nmaxShortD = " + maxShort);
         System.out.println("maxInt = " + maxInt++ + "\nmaxIntI = " + maxInt-- 
