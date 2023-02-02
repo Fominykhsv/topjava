@@ -95,14 +95,14 @@ public class VariablesTheme {
 
         System.out.println("\n8.Вывод количества сотен, десятков и единиц числа" );
         int number = 123;
-        int numberHundreds = number/ 100; 
-        int numberDecimals = number / 10 % 10; 
-        int numberUnits = number % 10;
-        System.out.println("Число N содержит: " + number + "\n" + numberHundreds + "-сотен");
-        System.out.println(numberDecimals + "-десятков");
-        System.out.println(numberUnits + "-единиц" );
-        System.out.println("Сумма его цифр = " + (numberHundreds + numberDecimals + numberUnits) );
-        System.out.println("Произведение = " + (numberHundreds  * numberDecimals * numberUnits));
+        int hundreds = number/ 100; 
+        int tens = number / 10 % 10; 
+        int ones = number % 10;
+        System.out.println("Число N содержит: " + number + "\n" + hundreds + "-сотен");
+        System.out.println(tens + "-десятков");
+        System.out.println(ones + "-единиц" );
+        System.out.println("Сумма его цифр = " + (hundreds + tens + ones) );
+        System.out.println("Произведение = " + (hundreds  * tens * ones));
 
         System.out.println("\n9.Вывод времени" );
         int time = 86399;
