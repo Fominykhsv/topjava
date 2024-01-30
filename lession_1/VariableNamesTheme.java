@@ -111,7 +111,7 @@ public class VariableNamesTheme {
         System.out.println("Счетчик = " + counter);
 
         // путь до файла
-        String filePath = "C:/Program Files/Java/jdk-21/bin";
+        String filePath = "C:/Program Files/Java/jdk-19/bin";
         System.out.println("Путь до файла = " + filePath);
 
         // количество чисел в каждой строке
