@@ -39,7 +39,7 @@ public class VariableNamesTheme {
         System.out.println("Переменная хранит символ = " + ampersand);
 
         // код ошибки
-        String errorCode = "404";
+        String errorCode = "550";
         System.out.println("Код ошибки = " + errorCode);
 
         // тип сообщения
